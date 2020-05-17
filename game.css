@@ -1,0 +1,64 @@
+#game {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url(./img/bg.jpg);
+    background-size: 100% 100%;
+    left: 0;
+    top: 0;
+}
+
+#game #board {
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    background: url(./img/board.png);
+    background-size: 100% 100%;
+    ;
+    bottom: 20px;
+    right: 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 70px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+#letter-container {
+    position: absolute;
+    left: 0;
+    right: 340px;
+    height: 100%;
+}
+
+.letter {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: url(./img/letter/A.png);
+    background-size: 100% 100%;
+    left: 0;
+    top: 0;
+}
+
+#over {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    left: 0;
+    top: 0;
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    display: none;
+}
+
+#over p {
+    position: absolute;
+    height: 40px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+}
